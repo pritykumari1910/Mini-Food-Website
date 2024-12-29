@@ -1,0 +1,111 @@
+/* Summary.css */
+
+/* Container Styles */
+.summary-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Title Styles */
+  .summary-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Empty Message */
+  .empty-summary-message {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-top: 50px;
+  }
+  
+  /* Summary Items */
+  .summary-items {
+    margin-bottom: 20px;
+  }
+  
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summary-item-name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .summary-item-price {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Total Section */
+  .summary-total {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .summary-total h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Submit Button */
+  .submit-order-btn {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .submit-order-btn:hover {
+    background: linear-gradient(135deg, #388e3c, #66bb6a);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .summary-container {
+      padding: 15px;
+    }
+  
+    .summary-title {
+      font-size: 20px;
+    }
+  
+    .summary-item-name,
+    .summary-item-price {
+      font-size: 16px;
+    }
+  
+    .submit-order-btn {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  

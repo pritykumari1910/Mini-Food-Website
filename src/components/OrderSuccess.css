@@ -1,0 +1,71 @@
+.order-success-container {
+  text-align: center;
+  padding: 50px 20px;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #4caf50, #8bc34a);
+  color: white;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.success-icon {
+  font-size: 80px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.order-message {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.success-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.history-btn, .menu-btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #4caf50;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.history-btn:hover, .menu-btn:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
